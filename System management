@@ -1,1 +1,45 @@
 
+import java.util.*;
+public class System {
+    private ArrayList <Student> studentList;
+    public System (){
+        this.studentList = new ArrayList<Student>();
+    }
+
+    // to add student
+    public void addStudent(String name, int ID, String college, String major){
+        studentList.add(new Student(name, ID, college,major));
+    }
+
+    //to find the student
+    public Student findStudent(int id) {
+        for (Student s: studentList) {
+            if (s.getID() == id) {
+                return s;
+            }
+        }
+        return null;
+    }
+
+    //to edit student info
+    public Student editInfo(int ID, String newName, String newCollege, String newMajor){
+        Student s = findStudent(ID);
+        if(s != null){
+            s.setName(newName);
+            s.setCollege(newCollege);
+            s.setMajor(newMajor);
+            return s;
+        }
+        return null;
+    }
+
+    //to delete student
+    public Student deleteStudent(int ID){
+        Student s = findStudent(ID);
+        if (s != null) {
+            studentList.remove(s);
+            return s;
+        }
+        return null ;
+    }
+}
