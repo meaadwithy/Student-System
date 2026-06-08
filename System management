@@ -1,6 +1,6 @@
 
 import java.util.*;
-public class System {
+public class Student_System {
     private ArrayList <Student> studentList;
     public System (){
         this.studentList = new ArrayList<Student>();
@@ -41,5 +41,16 @@ public class System {
             return s;
         }
         return null ;
+    }
+    // to see all students or the whole list
+    public String allStudents() {
+        if (!(studentList.isEmpty())) {
+            String result = "";
+            for (Student s: studentList){
+                result += s.toString() + "\n";
+            }
+            return result;
+        }
+        return "No students found.";
     }
 }
