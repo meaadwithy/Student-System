@@ -1,5 +1,5 @@
 
-public class Student {
+public class Student{
     private String name;
     private int ID;
     private String college;
@@ -33,6 +33,17 @@ public class Student {
     }
 
     public String toString(){
-      return "Name: " + name + "ID: " + ID;
+      return "Name: " + getName() + " Student ID: " + getID() +" Collage: "+ getCollege()+ " Major: " + getMajor();
+    }
+
+    public boolean equals(Object o){
+        if(o instanceof Student){
+            Student s = (Student) o;
+            return getName().equals(s.getName())
+                    && getID() == s.getID()
+                    && getCollege().equals(s.getCollege())
+                    && getMajor().equals(s.getMajor());
+        }
+        return false;
     }
 }
