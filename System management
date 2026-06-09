@@ -42,6 +42,18 @@ public class Student_System {
         }
         return null ;
     }
+
+    //to see the students in the same collage
+    public String sameCollage(String collage){
+        String result = "";
+        for (Student s: studentList){
+            if(collage.equals(s.getCollege()))
+                result += s.toString() + "\n";
+            return result;
+        }
+        return "No students found.";
+    }
+
     // to see all students or the whole list
     public String allStudents() {
         if (!(studentList.isEmpty())) {
