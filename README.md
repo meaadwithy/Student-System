@@ -1,2 +1,4 @@
-# Student-System
-Student Management System that Enter student and info
+## Student-System
+
+# Project:
+Student Management System without UI yet.
