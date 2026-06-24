@@ -5,7 +5,7 @@ Student Management System that Enter student info
 Student-System
 ├── Main
 └── code
-    ├── 1 student info.java
-    ├── 2 student management.java
-    └── 3 test.java
+    ├── 1 Student info.java
+    ├── 2 System management.java
+    └── 3 Test.java
 ```
