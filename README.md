@@ -1,12 +1,10 @@
 # Project
-## Student-System
+**Student-System**
 Student Management System that Enter student info.
 
-## 🛠️ Built With
----
-
+### 🛠️ Built With
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-
+---
 ### Technologies & Concepts
 
 - **Java**
