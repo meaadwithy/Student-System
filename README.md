@@ -3,10 +3,10 @@ Student Management System without UI yet.
 ___
 ## ✨ Features
 -  **Add student.**
-**Delete student.**
-**Edit student information by ID.**
-**See all student in the same colleges.**
-**See all student in University.**
+-  **Delete student.**
+-  **Edit student information by ID.**
+-  **See all student in the same colleges.**
+-  **See all student in University.**
 
 
 ## 📁 Project Structure
