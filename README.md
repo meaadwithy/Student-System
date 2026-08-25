@@ -1,7 +1,10 @@
-
-# Project:
-## Student-System
+# Student-System
 Student Management System without UI yet.
+___
+## ✨ Features
+
+
+## 📁 Project Structure
 ```text
 Student-System
 ├── Main
