@@ -1,6 +1,6 @@
 # Project Student-System
 Student Management System that Enter student info.
----
+___
 ### 🛠️ Built With
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ---
@@ -9,8 +9,8 @@ Student Management System that Enter student info.
 - **Java**
 - **Object-Oriented Programming (OOP)**
 
-
-##📁 Project Structure
+___
+## 📁 Project Structure
 ```text
 Student-System
 ├── Main
